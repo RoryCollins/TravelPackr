@@ -4,7 +4,8 @@
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext"
+      "esnext",
+      "es6"
     ],
     "allowJs": true,
     "skipLibCheck": true,
@@ -15,7 +16,10 @@
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
     "resolveJsonModule": true,
+    "strictNullChecks": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx"
